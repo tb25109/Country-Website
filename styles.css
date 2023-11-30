@@ -1,0 +1,23 @@
+.nav{
+list-style-type: none;
+padding-left: 0;
+
+border-style: dashed;
+
+width: 50vw;
+margin: auto;
+
+text-align: center;
+}
+
+.nav>li {
+    border: outset;
+    display: inline-block;
+}
+.nav>li>a {
+    text-decoration: none;
+    color: black;
+}
+.nav>li>:hover {
+    background-color: blanchedalmond;
+}
